@@ -1,0 +1,27 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Padmapiyush/todoListApi.git"
+  },
+  "author": "padmapiyush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Padmapiyush/todoListApi/issues"
+  },
+  "homepage": "https://github.com/Padmapiyush/todoListApi#Readme.md",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  }
+}
